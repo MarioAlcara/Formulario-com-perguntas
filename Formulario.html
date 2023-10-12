@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formulário de cadastro</h1>
+    <form>
+        <label>Seu Nome</label>
+        <input type="text" placeholder="Nome completo" />
+        <br/>
+        <label>Seu Email</label>
+        <input type="Email" placeholder="Email" />
+        <br />
+        <label>Telefone</label>
+        <input type="Tel" placeholder="Seu Telefone ou Celular" />
+        <br />
+        <input type="Number" max="10" min="2" step="2"/> <br />
+        <input type="file" /> <br/>
+        <input type="color" />
+        <input type="checkbox" id="checkbox-termos"/> <label   for="checkbox"></label> Aceito os termos </label>
+        <p>
+            Qual sua cor favorita?
+        </p>
+        <input type="radio" name="cor-favorita" id="cor-vermelha" /> <label for="cor-vermelha">Vermelho</label>
+        <input type="radio" name="cor-favorita" id="cor-verde" /> <label for="cor-verde">Verde</label>
+        <input type="radio" name="cor-favorita" id="cor-azul"/> <label for="cor-azul">Azul</label> 
+        <br/>
+        <label>Qual seu estilo de filme favorito?</label>  
+        <select>
+            <option>Selecione...</option>
+            <option>Terror</option>
+            <option>Ficção</option>
+            <option>Ação</option>
+            <option>Comédia Romantica</option>
+            <option>Comédia</option>
+            <option>Suspense</option>
+            <option>Documentario</option>
+            <option>Super-Herois</option>
+            <option>Aventura</option>
+            <option>Animação</option>
+            <option>Drama</option>
+            <option>Outro</option>
+            </select>
+            <br/>
+            <button type="submit">
+             Enviar
+            </button>
+            <button type="reset">
+             Limpar
+            </button>
+    </form>
+</body>
+</html>
